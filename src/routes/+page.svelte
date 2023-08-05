@@ -3,6 +3,7 @@
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 	import { burnout } from './stores';
+	import Burnout from './Burnout.svelte';
 </script>
 
 <svelte:head>
@@ -22,6 +23,7 @@
 		to your new<br />SvelteKit app
 	</h1>
 	Current burnout: {$burnout}
+	<Burnout />
 	<h2>
 		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>
