@@ -1,9 +1,8 @@
 <script>
-	import Counter from './Counter.svelte';
+	import Burnout from './Burnout.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 	import { burnout } from './stores';
-	import Burnout from './Burnout.svelte';
 </script>
 
 <svelte:head>
@@ -27,8 +26,6 @@
 	<h2>
 		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>
-
-	<Counter />
 </section>
 
 <style>
