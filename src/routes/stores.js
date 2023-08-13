@@ -6,7 +6,7 @@ if (browser){
 
     stored = Number(localStorage.burnout)
 }
-export const burnout = writable(stored || 75);
+export const burnout = writable(stored || 0);
 
 if (browser) {
     burnout.subscribe((value) => localStorage.burnout = value)
