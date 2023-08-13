@@ -4,7 +4,7 @@ import { browser } from '$app/environment';
 let stored = 0
 if (browser){
 
-    stored = localStorage.burnout
+    stored = Number(localStorage.burnout)
 }
 export const burnout = writable(stored || 75);
 

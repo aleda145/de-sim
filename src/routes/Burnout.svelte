@@ -4,10 +4,7 @@
 	 * @param {number} burn
 	 */
 	function burnoutMath(burn) {
-		if (burn < 50) {
-			return 50;
-		}
-		return 49;
+		return burn + 1;
 	}
 </script>
 
